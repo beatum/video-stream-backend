@@ -1,6 +1,6 @@
 ## Description
 
-A simple video stream service for "STSP" to "HLS".
+A simple video stream service for "RTSP" to "HLS".
 
 ## Configuration
 ### .env file:
