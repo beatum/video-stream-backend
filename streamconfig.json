@@ -1,0 +1,16 @@
+{
+  "streams": [
+    {
+      "taskId": "01",
+      "taskName": "01",
+      "inputUrl": "rtsp://[user]:[password]@[your ip address]:[port]/h264/ch1/main/av_stream",
+      "options": [
+        "-c:v copy",
+        "-c:a copy",
+        "-max_delay 1",
+        "-hls_time 1",
+        "-hls_list_size 2"
+      ]
+    }
+  ]
+}
